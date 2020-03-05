@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'migration-tool-angular';
+  title = 'Migration Tool!';
+  currentDate  = new Date();
+
+//  function getCurrentDate($scope) {
+//      $scope.currentDate = new Date();
+//  }
 }
